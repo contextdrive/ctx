@@ -6,7 +6,7 @@ The client walks, hashes, and uploads. It does not parse, embed, run SQL, or dec
 
 ## Repositories
 
-Eight repositories. The same list is `ARCHITECTURE.md` section 10.
+Seven repositories. The same list is `ARCHITECTURE.md` section 10.
 
 | Repo | Purpose |
 | --- | --- |
@@ -16,7 +16,6 @@ Eight repositories. The same list is `ARCHITECTURE.md` section 10.
 | `server` | `api.contextdrive.io`. Java. Product records, policy, catalog, files, and audit. |
 | `id` | `id.contextdrive.io`. Identity. Passwords, sessions, and tokens. No product records. |
 | `ctx` | The client on the caller's machine. Rust. |
-| `devops` | Bootstrap and deploy for a location. Terraform and Kamal. The server still creates each organization bucket. |
 | `packages` | npm packages a function imports. `@contextdrive/drive` calls the API for files and a `.ctxdb`. A connector speaks to one outside system. Neither owns the allow. |
 
 ## Vision repository
